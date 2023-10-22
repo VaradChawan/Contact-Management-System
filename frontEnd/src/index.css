@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width:15vw;
+    
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.content{
+    width:90vw;
+    height: 100vh;
+    background-color: aqua;
+}
+.content-table{
+    margin: 20px;
+    border:1px solid #333;
+    border-radius: 10px;
+}
+
+
+    .filters{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:15px 20px;
+        box-shadow: 0 0 3px gray;
+    }
+
+
+
+.register-page{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
